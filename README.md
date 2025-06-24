@@ -1,3 +1,4 @@
 # dataprivacy_group-project
-Collaberators:
+Collaborators:
+- Hyab
 - Victoria Ogunmakinwa
