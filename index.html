@@ -19,7 +19,36 @@
 
         <div class="breif-intro">
             <!-- One more image -->
-            <img src="./warning.jpg" alt="Warning Pop-up" />
+             <!-- Code gotten from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
+             <div class="container">
+                 <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="./warning.jpg" alt="Warning Pop-up" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="./Data Breach.jpeg" alt="Data Breach" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="./iphone warning img.jpg" alt="Iphone Warning" style="width:100%">
+                </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="./warning.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./Data Breach.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./iphone warning img.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+
             <p>
                 Have you ever encountered an alert like the picture above? If so, you could be at risk of breaches in you data privacy.  
             </p>
@@ -52,8 +81,7 @@
 
             <!-- working on design of website structure/ adding image gallery  -->
         </div>
-
-        
+   
         <script src= "dataprivacy.js" >
             
         </script>
